@@ -6,7 +6,6 @@ import java.util.List;
 public class Common {
 
     public static List<List<Integer>> partition(List<Integer> liste, int taille){
-
         if( liste.isEmpty())
             return Collections.emptyList();
 
@@ -15,7 +14,6 @@ public class Common {
 
         List<List<Integer>> rst = new ArrayList<List<Integer>>();
         List<Integer> part = new ArrayList<Integer>(taille);
-
         int compteur = 0 ;
 
         // parcourir elmt par elmt et
@@ -37,5 +35,4 @@ public class Common {
 
         return rst ;
     }
-
 }
