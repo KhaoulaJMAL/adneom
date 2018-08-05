@@ -5,6 +5,8 @@ import java.util.List;
 
 public class Common {
 
+
+    // ici on suppose que la liste contient que des Integer vu l'exemple ds l'énnoncé
     public static List<List<Integer>> partition(List<Integer> liste, int taille){
         if( liste.isEmpty())
             return Collections.emptyList();
